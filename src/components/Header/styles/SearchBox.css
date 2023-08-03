@@ -1,0 +1,26 @@
+.search-icon-header {
+  width: 15px;
+  background-color: #eef3f8;
+  height: 80%;
+  padding-left: 10px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.search-box-header {
+  border: none;
+  background-color: #eef3f8;
+  height: 34px;
+  font-size: 14pt;
+  padding-left: 10px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.input-icon-header {
+  display: flex;
+  align-items: center;
+}
+
+textarea:focus,
+.search-box-header:focus {
+  outline: none;
+}
