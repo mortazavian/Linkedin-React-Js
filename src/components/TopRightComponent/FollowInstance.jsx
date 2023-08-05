@@ -1,7 +1,13 @@
 import "./styles/FollowInstance.css";
 
-const FollowInstance = () => {
-  return <div>hello</div>;
+const FollowInstance = (props) => {
+  return (
+    <div>
+      <div className="image-of-the-page-top-right-component">
+        <img src={props.image} alt="" />
+      </div>
+    </div>
+  );
 };
 
 export default FollowInstance;
