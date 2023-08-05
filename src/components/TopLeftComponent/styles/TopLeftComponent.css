@@ -1,0 +1,89 @@
+.top-left-component-container-parent {
+  overflow: hidden;
+  width: 224px;
+}
+
+.top-left-component-container-children {
+  /* position: absolute; */
+}
+
+.top-left-component-container-children img {
+  display: block;
+}
+
+.top-image-top-left-component {
+  height: 56px;
+  border-radius: 5px 5px 0px 0px;
+  position: relative;
+}
+
+.profile-image-top-left-component {
+  height: 72px;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -36px;
+  border: 2px solid #fff;
+  position: sticky;
+}
+
+.name-top-left-component {
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 110px; */
+  margin-top: 15px;
+}
+
+.title-top-left-component {
+  font-size: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 110px; */
+  margin-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.who-viewed-profile-top-left-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.who-viewed-profile-top-left-container-text {
+  padding-left: 20px;
+}
+
+.who-viewed-profile-top-left-container-number {
+  padding-right: 20px;
+  color: #0a66c2;
+}
+
+.impressions-of-your-post {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.impressions-of-your-post-text {
+  padding-left: 20px;
+}
+.impressions-of-your-post-number {
+  padding-right: 20px;
+  color: #0a66c2;
+}
+
+.top-left-component-hr {
+  margin: 15px 0px;
+}
+
+.my-items-top-left-component {
+  display: flex;
+  padding-left: 20px;
+  font-size: 12px;
+}
+
+.my-items-top-left-component-svg {
+  margin-right: 5px;
+}
