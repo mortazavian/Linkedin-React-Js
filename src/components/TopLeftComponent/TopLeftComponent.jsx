@@ -6,11 +6,11 @@ import "./styles/TopLeftComponent.css";
 
 const TopLeftComponent = () => {
   return (
-    <div>
-      <div className="top-left-component-container">
-        {/* img top 
+    <div className="top-left-component-container-parent">
+      <div className="top-left-component-container-children">
+        {/* img top done
             img circle bottom done
-            name 
+            name done
             title
             hr
             Who's viewed your profile
@@ -25,6 +25,12 @@ const TopLeftComponent = () => {
           src={profilePhoto}
           className="profile-image-top-left-component"
         ></img>
+        <center className="name-top-left-component">
+          <div>Mehdi Mortazavian</div>
+        </center>
+        <center className="title-top-left-component">
+          <div>computer engineering student at Shiraz university</div>
+        </center>
       </div>
     </div>
   );
