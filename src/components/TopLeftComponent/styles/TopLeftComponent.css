@@ -57,3 +57,21 @@
   padding-right: 20px;
   color: #0a66c2;
 }
+
+.impressions-of-your-post {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.impressions-of-your-post-text {
+  padding-left: 20px;
+}
+.impressions-of-your-post-number {
+  padding-right: 20px;
+  color: #0a66c2;
+}
+
+.top-left-component-hr {
+  margin: 15px 0px;
+}

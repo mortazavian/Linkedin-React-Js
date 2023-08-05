@@ -14,7 +14,7 @@ const TopLeftComponent = () => {
             title done
             hr done
             Who's viewed your profile done
-            Impressions of your post
+            Impressions of your post done
             hr 
             My items
           
@@ -31,7 +31,7 @@ const TopLeftComponent = () => {
         <center className="title-top-left-component">
           <div>computer engineering student at Shiraz university</div>
         </center>
-        <hr />
+        <hr className="top-left-component-hr" />
         <center>
           <div className="who-viewed-profile-top-left-container">
             <div className="who-viewed-profile-top-left-container-text">
@@ -42,6 +42,15 @@ const TopLeftComponent = () => {
             </div>
           </div>
         </center>
+        <center>
+          <div className="impressions-of-your-post">
+            <div className="impressions-of-your-post-text">
+              Impressions of your post
+            </div>
+            <div className="impressions-of-your-post-number">82</div>
+          </div>
+        </center>
+        <hr className="top-left-component-hr" />
       </div>
     </div>
   );
