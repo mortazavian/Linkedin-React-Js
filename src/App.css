@@ -1,9 +1,19 @@
+* {
+  font-family: sans-serif;
+}
+
 TopLeftComponent {
-  padding-right: 2000px;
+  padding-left: 2000px;
 }
 
 .index-container-three-part {
   display: flex;
+  padding-left: 200px;
+}
+
+@font-face {
+  font-family: javad;
+  src: url("./assets/fonts/dfs");
 }
 /* #root {
   max-width: 1280px;

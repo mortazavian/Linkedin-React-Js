@@ -1,0 +1,11 @@
+.post-option-container {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 40px;
+  align-items: center;
+}
+
+.post-option-text {
+  font-size: 14px;
+  padding-left: 10px;
+}
