@@ -11,9 +11,9 @@ const TopLeftComponent = () => {
         {/* img top done
             img circle bottom done
             name done
-            title
-            hr
-            Who's viewed your profile
+            title done
+            hr done
+            Who's viewed your profile done
             Impressions of your post
             hr 
             My items
@@ -30,6 +30,17 @@ const TopLeftComponent = () => {
         </center>
         <center className="title-top-left-component">
           <div>computer engineering student at Shiraz university</div>
+        </center>
+        <hr />
+        <center>
+          <div className="who-viewed-profile-top-left-container">
+            <div className="who-viewed-profile-top-left-container-text">
+              Who's viewed your profile
+            </div>
+            <div className="who-viewed-profile-top-left-container-number">
+              20
+            </div>
+          </div>
         </center>
       </div>
     </div>

@@ -14,6 +14,7 @@
 .top-image-top-left-component {
   height: 56px;
   border-radius: 5px 5px 0px 0px;
+  position: relative;
 }
 
 .profile-image-top-left-component {
@@ -22,6 +23,8 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: -36px;
+  border: 2px solid #fff;
+  position: sticky;
 }
 
 .name-top-left-component {
@@ -38,4 +41,19 @@
   margin-right: auto;
   /* width: 110px; */
   margin-top: 15px;
+}
+
+.who-viewed-profile-top-left-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.who-viewed-profile-top-left-container-text {
+  padding-left: 20px;
+}
+
+.who-viewed-profile-top-left-container-number {
+  padding-right: 20px;
+  color: #0a66c2;
 }
