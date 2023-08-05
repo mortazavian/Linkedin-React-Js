@@ -41,6 +41,8 @@
   margin-right: auto;
   /* width: 110px; */
   margin-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .who-viewed-profile-top-left-container {
@@ -74,4 +76,14 @@
 
 .top-left-component-hr {
   margin: 15px 0px;
+}
+
+.my-items-top-left-component {
+  display: flex;
+  padding-left: 20px;
+  font-size: 12px;
+}
+
+.my-items-top-left-component-svg {
+  margin-right: 5px;
 }

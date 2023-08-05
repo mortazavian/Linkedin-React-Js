@@ -1,6 +1,7 @@
 // This component contains all other components of the top left component.
 import profilePhoto from "../../assets/images/TopLeftComponentImages/profile.jpg";
 import topPhoto from "../../assets/images/TopLeftComponentImages/topImage.jpg";
+import bookmarkSvg from "../../assets/icons/TopLeftComponentIcons/bookmark.svg";
 
 import "./styles/TopLeftComponent.css";
 
@@ -15,8 +16,8 @@ const TopLeftComponent = () => {
             hr done
             Who's viewed your profile done
             Impressions of your post done
-            hr 
-            My items
+            hr done
+            My items done
           
           */}
 
@@ -51,6 +52,12 @@ const TopLeftComponent = () => {
           </div>
         </center>
         <hr className="top-left-component-hr" />
+        <center className="my-items-top-left-component">
+          <div className="my-items-top-left-component-svg">
+            <img src={bookmarkSvg} />
+          </div>
+          <div className="my-items-top-left-component-text">My items</div>
+        </center>
       </div>
     </div>
   );
