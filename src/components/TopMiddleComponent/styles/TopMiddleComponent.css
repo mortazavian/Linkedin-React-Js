@@ -1,0 +1,25 @@
+.profile-photo-top-middle-component {
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 100% !important;
+  width: 48px;
+}
+
+.top-part-top-middle-component {
+  display: flex;
+}
+
+.input-top-middle-component input {
+  height: 48px;
+  width: 467px;
+  border-radius: 35px;
+  margin-top: 20px;
+  margin-left: 10px;
+  text-indent: 20px;
+  border: 1px solid #ccc;
+}
+
+.bottom-part-top-middle-component {
+  display: flex;
+  justify-content: space-around;
+}
