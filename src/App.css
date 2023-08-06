@@ -2,13 +2,9 @@
   font-family: sans-serif;
 }
 
-TopLeftComponent {
-  padding-left: 2000px;
-}
-
 .index-container-three-part {
   display: flex;
-  padding-left: 200px;
+  /* padding-left: 200px; */
 }
 
 @font-face {
