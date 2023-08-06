@@ -1,5 +1,6 @@
 import "./styles/FollowInstance.css";
 
+import FollowButton from "./FollowButton";
 const FollowInstance = (props) => {
   return (
     <div>
@@ -13,6 +14,9 @@ const FollowInstance = (props) => {
           </div>
           <div className="title-of-the-instance-of-page-top-right-component">
             {props.title}
+          </div>
+          <div className="follow-button-in-follow-instance">
+            <FollowButton></FollowButton>
           </div>
         </div>
       </div>
