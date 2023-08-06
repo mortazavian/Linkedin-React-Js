@@ -8,7 +8,7 @@ import article from "../../assets/icons/TopMiddleComponentIcons/article.svg";
 
 const TopMiddleComponent = () => {
   return (
-    <div>
+    <div className="top-middle-component-container">
       <div className="top-part-top-middle-component">
         <div className="profile-top-middle">
           <img
