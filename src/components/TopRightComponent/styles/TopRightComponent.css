@@ -1,3 +1,10 @@
 .add-to-your-feed-top-right-component {
   font-size: 16px;
 }
+
+.top-right-component-container {
+  background-color: #fff;
+  border-radius: 10px;
+  padding-left: 12px;
+  padding-top: 12px;
+}
