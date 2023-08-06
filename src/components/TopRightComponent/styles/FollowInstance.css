@@ -1,0 +1,14 @@
+.image-of-the-instance-of-page-top-right-component img {
+  border-radius: 100%;
+  width: 48px;
+}
+
+.name-of-the-instance-of-page-top-right-component {
+  font-size: 14px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.two-part-container-top-right-component {
+  display: flex;
+}
