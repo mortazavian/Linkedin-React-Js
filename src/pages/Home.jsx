@@ -7,9 +7,15 @@ import "./styles/Home.css";
 const Home = () => {
   return (
     <div className="index-container-three-part">
-      <TopLeftComponent></TopLeftComponent>
-      <TopMiddleComponent></TopMiddleComponent>
-      <TopRightComponent></TopRightComponent>
+      <div className="top-left-component-index-page">
+        <TopLeftComponent></TopLeftComponent>
+      </div>
+      <div>
+        <TopMiddleComponent></TopMiddleComponent>
+      </div>
+      <div className="top-right-component-index-page">
+        <TopRightComponent></TopRightComponent>
+      </div>
     </div>
   );
 };
