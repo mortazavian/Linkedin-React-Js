@@ -11,4 +11,11 @@
 
 .two-part-container-top-right-component {
   display: flex;
+  width: 300px;
+}
+
+.title-of-the-instance-of-page-top-right-component {
+  font-size: 12px;
+  padding-left: 10px;
+  padding-top: 5px;
 }

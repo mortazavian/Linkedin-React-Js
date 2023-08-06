@@ -16,14 +16,19 @@ function TopRightComponent() {
       <FollowInstance
         image={instance1Picture}
         name={"Mohamad Mehdi Mohamadi"}
+        title={
+          "160k+ Followers| 80M+ Views| Telegram 15k+| Helping Jobseekers| Software"
+        }
       ></FollowInstance>
       <FollowInstance
         image={instance2Picture}
         name={"Javad Javadian"}
+        title={"Company • Higher Education"}
       ></FollowInstance>
       <FollowInstance
         image={instance3Picture}
         name={"Ali Pishro"}
+        title={"Front-end developer New York"}
       ></FollowInstance>
     </div>
   );
